@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class DigitalProductTest {
+class DigitalProductTest {
     @Test
     @DisplayName("Should create valid product with all atributes")
     void createNewDigitalProduct() {
@@ -18,7 +18,6 @@ public class DigitalProductTest {
         BigDecimal price = new BigDecimal("49.90");
         String url = "https://seznam.cz";
 
-        //ACT 1
         DigitalProduct product = new DigitalProduct(name, description, price, url);
 
         assertAll("Verify product attributes",
