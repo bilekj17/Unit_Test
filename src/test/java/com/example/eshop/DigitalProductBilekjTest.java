@@ -9,10 +9,10 @@ import java.math.BigDecimal;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class DigitalProductTest {
+class DigitalProductBilekjTest {
     @Test
     @DisplayName("Should create valid product with all atributes")
-    void createNewDigitalProduct() {
+    void createNewDigitalBilekjProduct() {
         String name = "E-book java 2025";
         String description = "This is the description";
         BigDecimal price = new BigDecimal("49.90");

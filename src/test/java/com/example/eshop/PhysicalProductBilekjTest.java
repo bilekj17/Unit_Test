@@ -1,6 +1,5 @@
 package com.example.eshop;
 
-import com.example.eshop.product.DigitalProduct;
 import com.example.eshop.product.PhysicalProduct;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -10,10 +9,10 @@ import java.math.BigDecimal;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class PhysicalProductTest {
+class PhysicalProductBilekjTest {
     @Test
     @DisplayName("Should create valid product with all atributes")
-    void createNewPhysicalProduct() {
+    void createNewPhysicalBilekjProduct() {
         String name = "E-book java 2020";
         String description = "This is the description:)";
         BigDecimal price = new BigDecimal("39.90");

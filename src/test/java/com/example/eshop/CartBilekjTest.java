@@ -10,10 +10,10 @@ import java.math.BigDecimal;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class CartTest {
+class CartBilekjTest {
     @Test
     @DisplayName("Add")
-    void addCart() {
+    void addCartBilekjTest() {
 
         Cart cart = new Cart();
         PhysicalProduct jablko = new PhysicalProduct("Jablko","červené", new BigDecimal(20), 20,new BigDecimal(20));
@@ -26,7 +26,7 @@ class CartTest {
 
     @Test
     @DisplayName("Remove")
-    void removeCart() {
+    void removeCartBilekjTest() {
 
         Cart cart = new Cart();
         PhysicalProduct jablko = new PhysicalProduct("Jablko","červené", new BigDecimal(20), 20,new BigDecimal(20));

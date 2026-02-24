@@ -9,7 +9,7 @@ public class CartItem {
 
     public CartItem(Product product, int quantity) {
         if (quantity <= 0) {
-            throw new IllegalArgumentException("Quantity must be greater than zero");
+           throw new IllegalArgumentException("Quantity must be greater than zero");
         }
         this.product = product;
         this.quantity = quantity;
